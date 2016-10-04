@@ -22,8 +22,7 @@
         (helm-gitignore :toggle (configuration-layer/package-usedp 'helm))
         magit
         magit-gitflow
-        ;; not compatible with magit 2.1 at the time of release
-        ;; magit-svn
+        magit-svn
         orgit
         smeargle
         ))
